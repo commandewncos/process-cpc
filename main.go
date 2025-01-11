@@ -81,7 +81,8 @@ func main() {
 
 	/*
 
-
+		Salvar o nome e a data da ultima modificação
+		Verificar se houve modificação e caso tenha será realizado o download
 		Criar uma regra para criar um diretorio para cada tipo de arquivo
 		Verificar a extensão de cada arquivo
 		Salvar em um repositorio na nuvem
