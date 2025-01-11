@@ -78,6 +78,16 @@ func main() {
 	xml.Unmarshal(xmlData, &bucket)
 
 	// Content
+
+	/*
+
+
+		Criar uma regra para criar um diretorio para cada tipo de arquivo
+		Verificar a extensão de cada arquivo
+		Salvar em um repositorio na nuvem
+
+
+	*/
 	for _, content := range bucket.Contents {
 		param := url.PathEscape(content.Key)
 		url.PathEscape(content.Key)
